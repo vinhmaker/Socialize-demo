@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="512" height="512" viewBox="0 0 512 512"
+     xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Socialize Logo - Bird với Wifi</title>
+  <desc id="desc">Logo vector tối giản: chim màu tím với các cung sóng wifi nằm phía trên đầu.</desc>
+
+  <defs>
+    <style>
+      .primary { fill:  #5e2ed9; }         /* màu chính của bird */
+      .accent { stroke: #5e2ed9; }         /* màu của wifi */
+      .eye { fill: #ffffff; }              /* mắt */
+    </style>
+  </defs>
+
+  <g transform="translate(0,10)">
+    <!-- Thân chim -->
+    <path class="primary" d="
+      M160 300
+      C120 300, 100 260, 120 240
+      C140 220, 190 210, 230 210
+      C260 210, 290 200, 320 175
+      C350 150, 380 140, 410 150
+      C440 160, 460 190, 450 220
+      C440 250, 420 270, 400 280
+      C370 300, 320 320, 270 330
+      C230 338, 190 334, 160 300 Z" />
+
+    <!-- Đuôi / chân -->
+    <path class="primary" d="M170 320 C160 340, 185 350, 200 340" />
+
+    <!-- Mỏ -->
+    <path class="primary" d="M410 170 L440 185 L410 190 Z" />
+
+    <!-- Cánh / highlight -->
+    <path d="M260 280 C280 300, 320 290, 330 270 C300 285, 270 280, 260 280 Z"
+          fill="#ffffff" opacity="0.15" />
+
+    <!-- Mắt -->
+    <circle class="eye" cx="340" cy="200" r="12" />
+
+    <!-- Wifi -->
+    <g fill="none" stroke-linecap="round" stroke-linejoin="round" class="accent" transform="translate(0,-90)">
+      <!-- Vòng cung lớn -->
+      <path d="M208 140 C248 100, 304 100, 344 140" stroke-width="18" />
+      <!-- Vòng cung giữa -->
+      <path d="M228 160 C258 130, 294 130, 324 160" stroke-width="14" />
+      <!-- Vòng cung nhỏ (đã chỉnh) -->
+      <path d="M250 180 C270 160, 290 160, 310 180" stroke-width="10" />
+      <!-- Chấm wifi -->
+      <circle cx="281" cy="200" r="10" fill="#5e2ed9" stroke="none" />
+    </g>
+  </g>
+</svg>
